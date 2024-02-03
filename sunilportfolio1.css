@@ -1,0 +1,507 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+pre{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Styling for the home section */
+#home {
+    background-color: black; /* Adjust background color as needed */
+    padding: 20px;
+}
+
+/* Layout for home content */
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for the text in home section */
+.home-text {
+    text-align: left;
+    margin-right: 20px; /* Adjust spacing between text and picture */
+}
+
+.home-text h1 {
+    font-weight: bold;
+    color: white; /* Adjust color as needed */
+}
+
+.home-text h3 {
+    color: white; /* Adjust color as needed */
+}
+
+/* Styling for social media icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a { /* Adjust color as needed */
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Styling for profile picture */
+.profile-picture {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%; /* Make it round */
+    overflow: hidden; /* Hide any overflow content */
+}
+
+.profile-picture img {
+    width: 100%; /* Make the image take the full space of its container */
+    height: auto;
+}
+
+section {
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image {
+    flex: 1;
+}
+.about-image img{
+    width:70%;
+}
+
+.about-text {
+    flex: 2;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed; /* Make the header fixed */
+    top: 0; /* Position it at the top */
+    width: 100%; /* Make it take the full width */
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Add padding to the body to avoid content being hidden under the fixed header */
+body {
+    padding-top: 40px; /* Adjust as needed based on your header height */
+}
+.profile-picture {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%; /* Make it round */
+    overflow: hidden; /* Hide any overflow content */
+}
+#download-cv {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+#download-cv:hover {
+    background-color: #45a049;
+}
+
+/* Animation */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Apply animation */
+#download-cv:hover {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.profile-picture img {
+    width: 100%; /* Make the image take the full space of its container */
+    height: auto;
+}
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    width: 0;
+    background-color: #4CAF50;
+    transition: width 1s;
+}
+
+.python { width: 50%; }
+.html { width: 80%; }
+.css { width: 78%; }
+.javascript { width: 82%; }
+
+.skill-bar:hover .skill-level {
+    width: 100%;
+}
+/* Your existing CSS */
+
+/* Move navigation list to the right */
+.nav-list {
+    float: right;
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Contact Icons */
+.contact-icons {
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Enable Scrolling Feature */
+body {
+    overflow-y: scroll;
+}
+/* Add background color and white text */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Grey background color */
+    color: black; /* White text color */
+}
+
+/* Your existing CSS */
+
+/* Move navigation list to the right */
+.nav-list {
+    float: right;
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Contact Icons */
+.contact-icons {
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Enable Scrolling Feature */
+body {
+    overflow-y: scroll;
+}
+
+/* Skill percentage display */
+.skill-level {
+    height: 100%;
+    background-color: #4CAF50;
+    transition: width 1s;
+    text-align: center;
+    line-height: 20px; /* Center text vertically */
+    color: black;/* White text color */
+}
+
+.python { width: 50%; }
+.html { width: 80%; }
+.css { width: 78%; }
+.javascript { width: 82%; }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed; /* Make the header fixed */
+    top: 0; /* Position it at the top */
+    width: 100%; /* Make it take the full width */
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed; /* Make the header fixed */
+    top: 0; /* Position it at the top */
+    width: 100%; /* Make it take the full width */
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Add padding to the body to avoid content being hidden under the fixed header */
+body {
+    padding-top: 40px; /* Adjust as needed based on your header height */
+}
+
+.profile-picture {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%; /* Make it round */
+    overflow: hidden; /* Hide any overflow content */
+}
+
+.profile-picture img {
+    width: 100%; /* Make the image take the full space of its container */
+    height: auto;
+}
+
+section {
+    padding: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.skill-icons {
+    margin-right: 20px;
+}
+
+.skill-icons i {
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.skill-text p {
+    margin: 0;
+}
+
+.contact-icons {
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Enable Scrolling Feature */
+body {
+    overflow-y: scroll;
+}
+/* Styling for the home section */
+#home {
+    background-color: #000; /* Black background color */
+    padding: 20px;
+    color: #fff; /* White text color */
+}
+
+/* Layout for home content */
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for the text in home section */
+/* Styling for social media icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Styling for profile picture */
+.profile-picture {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%; /* Make it round */
+    overflow: hidden; /* Hide any overflow content */
+}
+
+.profile-picture img {
+    width: 100%; /* Make the image take the full space of its container */
+    height: auto;
+}
+contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+  }
+
+  .contact .details {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .contact .details h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .contact .details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact .details ul li {
+    margin: 10px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact .details ul li i {
+    margin-right: 10px;
+  }
+
+  
