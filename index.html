@@ -97,11 +97,29 @@
           </ul>
         </div>
     </div>
-</body>
-</html>
+    
+  <h1 class="counter">Welcome to My Website!</h1>
+  <p class="counter">This website has been visited:</p>
+  <p id="visit-count" class="counter">0</p>
 <script>
     document.getElementById("download-cv").addEventListener("click", function() {
         // Assuming your resume is a PDF file named "resume.pdf"
         window.open("path/to/your/resume.pdf", "_blank");
     });
+    // Function to update and display visit count
+    function updateVisitCount() {
+      let count = localStorage.getItem('visitCount') || 0;
+      count = parseInt(count) + 1;
+      localStorage.setItem('visitCount', count);
+      document.getElementById('visit-count').textContent = count;
+    }
+
+    // Call the function on page load
+    window.onload = function() {
+      updateVisitCount();
+    };
+
 </script>
+
+</body>
+</html>
